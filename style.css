@@ -1,0 +1,141 @@
+/*
+:root {
+
+  --clr-pale-blue: hsl(225, 100%, 94%);
+  --clr-bright-blue: hsl(245, 75%, 52%);
+  
+  --clr-white: #fff;
+  --clr-v-pale-blue: hsl(225, 100%, 98%);
+  --clr-dsat-blue: hsl(224, 23%, 55%);
+  --clr-dark-blue: hsl(223, 47%, 23%);
+
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  background-image: url(./images/pattern-background-desktop.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+.container {
+  width: 18rem;
+  height: 29.5rem;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  border-radius: 10px;
+  
+  align-items: center;
+}
+
+.card-img-top {
+  object-fit: cover;
+  max-width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-align: center;
+  color: hsl(223, 47%, 23%);
+  margin: 20px 0 10px 0;
+}
+
+.card-text {
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  font-size: 0.7rem;
+  text-align: center;
+  line-height: 18px;
+  margin: 5px 20px 25px 20px
+}
+
+.grid-container {
+ display: flex;
+  background-color: hsl(225, 100%, 98%);
+  width: 15rem;
+  border-radius: 10px;
+  margin-left: 1.3rem;
+  min-height: 3svh;
+
+}
+
+.item-1 {
+  padding: 15px 5px 15px 15px;
+}
+
+span {
+  font-weight: 700;
+  font-size: 0.7rem;
+  color: hsl(223, 47%, 23%);
+}
+
+.item-2 {
+  font-weight: 400;
+  font-size: 0.7rem;
+  color: hsl(224, 23%, 55%);
+  padding: 12px;
+  line-height: 20px;
+}
+
+
+.item-3 {
+  font-size: 0.7rem;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  padding: 23px 5px 10px 45px;
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  font-family: 'Red Hat Display', sans-serif;
+  width: 15rem;
+  border: 2px solid hsl(245, 75%, 52%);
+  padding: 8px;
+  font-weight: 700;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  margin: 30px 0 20px 20px;
+  box-shadow: 10px 10px 50px hsl(245, 75%, 85%);
+  cursor: pointer;
+}
+
+.button:active {
+background-color: hsl(245, 75%, 75%);
+border: 2px solid hsl(245, 75%, 75%);
+}
+
+.button:hover {
+  background-color: hsl(245, 75%, 75%);
+  border: 2px solid hsl(245, 75%, 75%);
+}
+
+.cancel-button { 
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin: 6.5rem;
+}
+
+.attribution { 
+  margin-top: 30px;
+  font-size: 11px; text-align: center; 
+}
+.attribution a { color: hsl(228, 45%, 44%); }
